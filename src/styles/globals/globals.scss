@@ -1,5 +1,6 @@
-
 @import './Colors.scss';
+@import './Variables.scss';
+
 *,
 *::before,
 *::after {
@@ -18,16 +19,21 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
     background-color: white;
-    color: shade($electric-purple,88%);
+    color: shade($electricPurple,88%);
     &.dark {
-      background-color: shade($electric-purple,96%);
-      color: tint($electric-purple,62%);
+      background-color: shade($electricPurple,96%);
+      color: tint($electricPurple,62%);
     }
   }
-  
+  h1{
+    margin: $space-md;
+  }
  
-  
-  // Basic styling for the page
+  .site-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; // Header, flexible main content, footer
+    min-height: 100vh;
+  }  // Basic styling for the page
   
   .container {
     display: flex;

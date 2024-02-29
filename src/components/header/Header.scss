@@ -5,13 +5,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: $margin-md;
+    margin: $space-md;
+    nav{
+        a{
+        
+        &:nth-child(n+2) {
+            // Your styles here
+            margin: $space-xs; // Example style
+          }
+        
+        }
+    }
 
 }
 .toggle-button {
     border-radius: 999px;
-    background-color: shade($electric-purple,32%);
-    padding: 0.75rem;
+    background-color: shade($electricPurple,32%);
+    padding: 0.575rem;
     border: none;
     // display: flex;
     // align-items: center;
@@ -20,7 +30,7 @@
     // margin: auto;
     cursor: pointer;
     &:hover {
-      background-color: shade($electric-purple,2%);
+      background-color: shade($electricPurple,2%);
     }
   
     .icon {

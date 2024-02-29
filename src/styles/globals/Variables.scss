@@ -1,15 +1,17 @@
-// Margin variables based on best practices
-// These variables provide a consistent spacing system throughout the app
-$margin-xs: 4px; // Extra-small margin for tight spacing
-$margin-sm: 8px; // Small margin for general use
-$margin-md: 16px; // Medium margin for grouped elements
-$margin-lg: 32px; // Large margin for section separations
-$margin-xl: 64px; // Extra-large margin for major spacing
+// Margin and Padding Variables
+// These variables provide a consistent spacing system for margins and padding throughout the app.
+$space-xxs: 0px; // Extra-extra-small space for very tight spacing.
+$space-xs: 4px; // Extra-small space for tight spacing.
+$space-sm: 8px; // Small space for general use.
+$space-md: 16px; // Medium space for grouped elements or moderate spacing.
+$space-lg: 32px; // Large space for section separations or larger gaps.
+$space-xl: 64px; // Extra-large space for major spacing between large blocks.
+$space-xxl: 128px; // Extra-extra-large space for very large separations.
 
 // Flex and Grid container margins
 // Defines standard margins for layout containers to ensure consistency
-$container-margin: $margin-md; // Default margin for container elements
-$gutter-width: $margin-sm; // Gutter width for grid layouts
+$container-margin: $space-md; // Default margin for container elements
+$gutter-width: $space-sm; // Gutter width for grid layouts
 
 // Maximum width settings for layout consistency
 $max-width-container: 1200px; // Maximum width for main content containers

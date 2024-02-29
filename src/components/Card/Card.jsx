@@ -1,12 +1,12 @@
 import { useTheme } from '@/context/ThemeContext';
 import './Card.scss'
 
-const Card = () => {
+const Card = ( {name} ) => {
   const { isDarkMode } = useTheme();
 
   return (
     <div className={`card ${isDarkMode ? 'dark' : 'light'}`}>
-      This card is on {isDarkMode ? 'dark mode' : 'light mode'}.
+      {name} This card is on {isDarkMode ? 'dark mode' : 'light mode'}.
     </div>
   );
 };

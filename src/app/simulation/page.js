@@ -1,10 +1,13 @@
+'use client';
 import Link from 'next/link';
+import Title from '../../components/title/Title';
+
 
 const SimulationPage = () => {
   return (
     <div>
+      <Title />
       <h1>Simulation Page</h1>
-      <Link href="/">Go to Home</Link>
     </div>
   );
 };

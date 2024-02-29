@@ -1,9 +1,10 @@
 // src\app\layout.js
 
 import '../styles/globals/globals.scss';
-
+import Header from '../components/header/Header'
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/context/ThemeContext';
+import Footer from '@/components/footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,9 +19,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       
         <ThemeProvider >
-        
+        <div className='site-container'>
+        <Header />
         {children}
-        
+        <Footer/>
+        </div>
         
         </ThemeProvider>
       </body>
