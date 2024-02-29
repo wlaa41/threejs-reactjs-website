@@ -1,0 +1,52 @@
+
+@import './Colors.scss';
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; // This ensures box-sizing is applied consistently
+  text-decoration: none; /* Remove underline from link text */
+  border-bottom: none; /* Remove underline from the <a> tag */
+
+}
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+    background-color: white;
+    color: shade($electric-purple,88%);
+    &.dark {
+      background-color: shade($electric-purple,96%);
+      color: tint($electric-purple,62%);
+    }
+  }
+  
+ 
+  
+  // Basic styling for the page
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .content {
+    margin: auto;
+    max-width: 80rem;
+    text-align: center;
+  }
+  
+  .title {
+    margin: 1.5rem 0;
+    font-weight: 600;
+  }
+  a{
+    color: inherit;
+  }

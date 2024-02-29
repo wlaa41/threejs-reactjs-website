@@ -1,18 +1,20 @@
+'use client';
+
 import Link from 'next/link';
-
-
+import ThemeToggleBtn from '@/components/header/ThemeToggleBtn';
+import './Header.scss'
 
 const Header = () => {
   // const { theme, toggleTheme } = useTheme();
 
   return (
-    <header>
+    <header className='header-container'>
       <nav>
-        <Link href="/">Home</Link> | <Link href="/about">About</Link>
+        <Link className='homenav-bar' href="/">Home</Link> | 
+        <Link className='simulationnav-bar' href="/simulation">Simulation</Link> |
+         <Link className='aboutnav-bar' href="/about">About</Link>
       </nav>
-      {/* <button onClick={toggleTheme}>
-        {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
-      </button> */}
+      <ThemeToggleBtn />
     </header>
   );
 };

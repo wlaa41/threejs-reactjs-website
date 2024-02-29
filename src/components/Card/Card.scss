@@ -1,0 +1,21 @@
+@import '../../styles/globals/globals.scss';
+@import '../../styles/globals/Colors.scss';
+@import '../../styles/globals/Variables.scss';
+
+.card {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: $margin-md;
+  
+    &.light {
+      background: $background-light-dawn;
+      color: var(--electric-purple-1);
+    }
+  
+    &.dark {
+      background-color: var(--ocean-blue-4);
+      background:  $background-dark-ocean;
+      color: var(--deep-indigo-11);
+    }
+  }

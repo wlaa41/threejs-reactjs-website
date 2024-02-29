@@ -1,0 +1,16 @@
+// Margin variables based on best practices
+// These variables provide a consistent spacing system throughout the app
+$margin-xs: 4px; // Extra-small margin for tight spacing
+$margin-sm: 8px; // Small margin for general use
+$margin-md: 16px; // Medium margin for grouped elements
+$margin-lg: 32px; // Large margin for section separations
+$margin-xl: 64px; // Extra-large margin for major spacing
+
+// Flex and Grid container margins
+// Defines standard margins for layout containers to ensure consistency
+$container-margin: $margin-md; // Default margin for container elements
+$gutter-width: $margin-sm; // Gutter width for grid layouts
+
+// Maximum width settings for layout consistency
+$max-width-container: 1200px; // Maximum width for main content containers
+$max-width-text: 800px; // Maximum width for text blocks to maintain readability
