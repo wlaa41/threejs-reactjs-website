@@ -1,3 +1,4 @@
+// Relative file path: ./app\layout.js
 // src\app\layout.js
 
 import '../styles/globals/globals.scss';

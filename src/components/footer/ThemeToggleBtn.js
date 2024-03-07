@@ -1,3 +1,4 @@
+// Relative file path: ./components\footer\ThemeToggleBtn.js
 import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
 import { useTheme } from '@/context/ThemeContext';
 

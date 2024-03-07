@@ -1,4 +1,4 @@
-// Relative file path: ./app\simulation\layout.js
+// Relative file path: ./app\voronoi\layout.js
 
 
 

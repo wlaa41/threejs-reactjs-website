@@ -12,6 +12,8 @@ const Header = () => {
       <nav>
         <Link className='homenav-bar' href="/">Home</Link> |  
         <Link className='simulationnav-bar' href="/simulation">Simulation</Link> | 
+         <Link className='voronoinav-bar' href="/voronoi">Voronoi</Link>| 
+         <Link className='voronoinav-bar' href="threejs-fiber">Threejs/Fiber</Link>| 
          <Link className='aboutnav-bar' href="/about">About</Link>
       </nav>
       <ThemeToggleBtn />

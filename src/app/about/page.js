@@ -1,3 +1,4 @@
+// Relative file path: ./app\about\page.js
 import Link from 'next/link';
 
 const AboutPage = () => {

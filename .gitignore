@@ -45,6 +45,10 @@ out/
 # Environment variables
 .env*
 !.env.example
+.venv
+
+# my orginzer file rutall
+# Orginizer.ipynb
 
 # Debug logs
 npm-debug.log*

@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# threejs-reactjs-website
 
-First, run the development server:
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage) (To be completed)
+5. [Folder Structure](#folder-structure) (To be completed)
+6. [Dependencies](#dependencies) (To be completed)
+7. [Contributing](#contributing) (To be completed)
+8. [License](#license) (To be completed)
+9. [Credits](#credits) (To be completed)
+10. [Contact](#contact) (To be completed)
+
+## Introduction
+
+`threejs-reactjs-website` is a cutting-edge web application that leverages the power of Three.js and React.js to deliver immersive 3D experiences on the web. This project aims to showcase the seamless integration of 3D graphics into modern web interfaces, providing users with interactive and engaging content. Developed with the latest web technologies, this website serves as a demonstration of how 3D elements can enhance user interaction and visual appeal in web applications.
+
+## Features
+
+- **3D Rendering:** Utilize Three.js for rendering dynamic 3D scenes directly in the web browser.
+- **React Integration:** Built on the React framework, ensuring a responsive and component-driven user interface.
+- **Interactive Elements:** Interactive 3D objects that users can engage with, enhancing the overall user experience.
+- **Customizable Lighting and Textures:** Demonstrates various lighting effects and texture mappings to bring 3D models to life.
+- **Responsive Design:** Fully responsive layout that adapts to different screen sizes and devices.
+
+## Installation
+
+To get started with `threejs-reactjs-website`, follow the steps below to set up the project on your local machine.
 
 ```bash
+# Clone the repository
+git clone git@github.com:wlaa41/threejs-reactjs-website.git
+
+# Navigate to the project directory
+cd threejs-reactjs-website
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+After installing the project, you can start exploring its features and functionalities. Here's how to make the most out of `threejs-reactjs-website`:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Explore 3D Models:** Navigate through the website to view and interact with 3D models rendered using Three.js.
+2. **Modify Elements:** Experiment with different lighting, textures, and materials to see real-time changes in the 3D scene.
+3. **Responsive Testing:** Resize your browser window or access the website on different devices to experience its responsive design.
 
-## Learn More
+## Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+The project is organized into several key directories to maintain a clean and manageable codebase. Here's a brief overview:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```plaintext
+threejs-reactjs-website/
+├── components/       # Reusable React components (e.g., headers, footers)
+├── pages/            # Page components for Next.js routing
+├── public/           # Static assets (images, models)
+├── styles/           # Global and module-specific styles
+└── utils/            # Utility functions and helpers
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Dependencies
 
-## Deploy on Vercel
+`threejs-reactjs-website` is built using various libraries and frameworks to provide its rich features and functionalities. Below are the key dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **React & React-DOM**: For building the user interface with components.
+- **Next.js**: A React framework for server-rendered and static web applications.
+- **Three.js**: JavaScript 3D library for rendering 3D graphics.
+- **@react-three/fiber & @react-three/drei**: React renderers for Three.js, offering a collection of helper components.
+- **Leva**: A library for creating debug UIs easily.
+- **SASS**: A CSS extension language for more advanced styling capabilities.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Stay tuned for more updates and features by checking out the project's repository on GitHub.
+
+## Contributing
+
+Contributions to `threejs-reactjs-website` are welcome! Whether it's submitting bugs, proposing new features, or improving documentation, your help is appreciated. To contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Credits
+
+This project was made possible thanks to:
+
+- The [Three.js](https://threejs.org/) team for their incredible 3D library.
+- The [React](https://reactjs.org/) and [Next.js](https://nextjs.org/) teams for their frameworks.
+- All [contributors](https://github.com/wlaa41/threejs-reactjs-website/graphs/contributors) who have participated in this project.
+
+## Contact
+
+For any inquiries or suggestions, please feel free to contact the project maintainer:
+
+- GitHub: [@wlaa41](https://github.com/wlaa41)
+- Email: wlaa41@gmail.com
+
+Thank you for your interest in `threejs-reactjs-website`. We look forward to your contributions and feedback!
